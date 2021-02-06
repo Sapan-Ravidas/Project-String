@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block topblock %}
+<div class="style-backgroud_images">
+    <div class="container padding-style">
+        <div class="media paddings">
+            <img class="about_image" class="img-fluid img-resposive" src="{{ url_for('static', filename = 'assets/carousel_slide/about.jpg') }}">
+            <div class="media-body">
+                <h3>Melody is the essence of music. I compare a good melodist to a fine racer, and counterpointists to hack post-horses; therefore be advised, let well alone and remember the old Italian proverb: Chi sa più, meno sa—Who knows most, knows least.</h3>
+                <h5>--- Wolfgang Amadeus Mozart</h5>
+            </div>
+        </div>
+        <div class="container" style="padding-top: 10%;">
+            <h4>Project-String is a initiative to provide music lessons in a easy and effective way. We are tryig to provide the violin lessions with proved and tested practice methods.</h4>
+            <br/>
+            <br/>
+
+            <h3>The violin is my mistress, but the guitar is my master.</h3>
+            <h5>---Nicolo Paginini</h5>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}

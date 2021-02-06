@@ -1,0 +1,57 @@
+
+.backgroud_images{
+	background-image: url("./assets/project_images/000.jpg");
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.backgroud_images .padding-style{
+	padding-top: 150px;
+	color: blanchedalmond;
+}
+
+.background_content{    
+    padding-top: 4%;
+    margin-top: 4%;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 660px;
+}
+
+.form-input-field{
+	padding-left: 1.2rem;
+	padding-right: 1.2rem;
+	padding-bottom: 1.5rem;
+}
+
+.style-backgroud_images{
+	background-image: url("./assets/project_images/04.jpg");
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.style-backgroud_images .padding-style{
+	padding-top: 150px;
+	color: blanchedalmond;
+}
+.account-image {
+	height: 125px;
+	width: 125px;
+	margin-right: 20px;
+	margin-bottom: 16px;
+}
+
+
+.account-heading {
+	font-size: 2.5rem;
+  }
+
+.about_image{
+	border-radius: 15px;
+	width: 50%;
+	padding-right: 3%;
+}
